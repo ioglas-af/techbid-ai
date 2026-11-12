@@ -1,0 +1,24 @@
+# Secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Python
+.venv/
+venv/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+*.egg-info/
+
+# Local runs and user content
+results/
+*.log
+*.db
+*.sqlite
+*.sqlite3
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
